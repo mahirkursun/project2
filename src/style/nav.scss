@@ -1,0 +1,40 @@
+nav {
+  background: linear-gradient(115deg, #ffffff 10vw, rgb(0, 0, 0) 90vw);
+  width: 96vw;
+  border-radius: 15px;
+  margin: 0 auto;
+  height: 10vh;
+  color: black;
+  box-shadow: 5px 10px 15px black, 5px 10px 15px white;
+ 
+}
+img {
+  width: 70px;
+  margin: 18px;
+}
+.logo {
+  float: left;
+}
+.menu {
+  float: right;
+  margin-right: 15px;
+}
+.menu ul {
+  float: left;
+
+  color: white;
+
+  width: 9.5vw;
+  text-align: center;
+  margin-top: 18px;
+  
+}
+.menu li {
+  background-color: rgb(41, 41, 41);
+  padding: 10px 0 10px 0;
+  border-radius: 15px;
+  margin: 10px;
+  font-family: monospace;
+  font-size: 18px;
+  box-shadow: 1px 3px 5px rgb(255, 255, 255),
+}

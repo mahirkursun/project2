@@ -1,0 +1,41 @@
+.content {
+  width: 79vw;
+  display: table-cell;
+  border-radius: 15px;
+  margin: 0px 15px 0 15px;
+  color: rgb(255, 255, 255);
+  box-shadow: 5px 10px 15px black, 5px 10px 15px white;
+  padding: 5px;
+  font-family: monospace;
+  font-size: 20px;
+}
+table {
+  margin: 20px;
+  width: 75vw;
+  opacity: 0.9;
+}
+
+thead {
+  background-color: rgb(41, 41, 41);
+  opacity: 0.9;
+  font-weight: bold;
+}
+
+tbody tr:nth-child(even) {
+  background-color: rgb(75, 79, 79);
+  opacity: 0.9;
+}
+
+tbody tr:nth-child(odd) {
+    opacity: 0.9;
+  background-color: rgb(126, 129, 129);
+ 
+}
+
+th,
+td {
+  border: 2px solid #ccc;
+  padding: 8px;
+  border-radius: 3px;
+  text-align: left;
+}

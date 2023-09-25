@@ -1,0 +1,38 @@
+aside {
+  display: table-cell;
+  width: 19vw;
+  border-radius: 15px;
+  margin-left: 10px;
+
+  color: black;
+  box-shadow: 5px 10px 15px black, 5px 10px 15px white;
+}
+.side {
+  margin-top: 15px;
+}
+h2 {
+  text-align: center;
+  margin: 15px;
+  font-family: monospace;
+  font-size: 25px;
+  color: black;
+  font-weight: bold;
+}
+
+.side ul {
+  text-align: center;
+  width: 14vw;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.side li {
+  background-color: rgb(41, 41, 41);
+  padding: 10px 0 10px 0;
+  border-radius: 15px;
+  margin: 10px;
+  font-family: monospace;
+  font-size: 18px;
+  box-shadow: 1px 3px 5px rgb(255, 255, 255);
+}

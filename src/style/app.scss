@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+body {
+  background: linear-gradient(115deg, #ffffff 10vw, rgb(0, 0, 0) 90vw);
+}
+.app {
+  margin: 15px 0 15px 0;
+}
+.container {
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
