@@ -10,7 +10,7 @@ const Navbar = ({ categories }) => {
       </div>
       <div className="menu">
         {categories.map((category) => (
-          <ul>
+          <ul key={category.id}>
             <li>{category.categoryName}</li>
           </ul>
         ))}

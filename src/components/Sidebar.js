@@ -7,7 +7,7 @@ const Sidebar = ({ categories }) => {
       <div className="side">
         <h2>Categories</h2>
         {categories.map((category) => (
-          <ul>
+          <ul key={category.id}>
             <li>{category.categoryName}</li>
           </ul>
         ))}

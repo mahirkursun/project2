@@ -16,7 +16,7 @@ const Content = ({ products }) => {
         </thead>
         <tbody>
           {products.map((product) => (
-            <tr>
+            <tr key={product.id}>
               <td>{product.id}</td>
               <td>{product.productName}</td>
               <td>{product.quantityPerUnit}</td>
