@@ -6,7 +6,6 @@ nav {
   height: 10vh;
   color: black;
   box-shadow: 5px 10px 15px black, 5px 10px 15px white;
- 
 }
 img {
   width: 70px;
@@ -14,9 +13,11 @@ img {
 }
 .logo {
   float: left;
+  cursor: pointer;
 }
 .menu {
   float: right;
+
   margin-right: 15px;
 }
 .menu ul {
@@ -27,14 +28,38 @@ img {
   width: 9.5vw;
   text-align: center;
   margin-top: 18px;
-  
+
 }
 .menu li {
   background-color: rgb(41, 41, 41);
   padding: 10px 0 10px 0;
   border-radius: 15px;
   margin: 10px;
+  height: 4.5vh;
+  cursor: pointer;
   font-family: monospace;
   font-size: 18px;
-  box-shadow: 1px 3px 5px rgb(255, 255, 255),
+  box-shadow: 1px 3px 5px rgb(255, 255, 255);
+  transition: 0.7s;
+ 
+}
+.menu li.active {
+  height: 5.5vh;
+  padding-top: 1.5vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  box-shadow: 5px 10px 15px white;
+  cursor: pointer;
+}
+.menu li:hover {
+  height: 5.5vh;
+    padding-top: 1.5vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    box-shadow: 5px 10px 15px white;
+    cursor: pointer;
 }

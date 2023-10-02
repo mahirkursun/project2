@@ -1,14 +1,16 @@
 aside {
   display: table-cell;
-  width: 19vw;
+  width: 25vw;
   border-radius: 15px;
   margin-left: 10px;
-
+  
+  padding: 10px;
   color: black;
   box-shadow: 5px 10px 15px black, 5px 10px 15px white;
 }
 .side {
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 h2 {
   text-align: center;
@@ -28,12 +30,38 @@ h2 {
   margin: 0 auto;
 }
 .side li {
+  color: white;
+
+  display: flex;
+
+  justify-content: center;
+  width: 13vw;
+  margin-top: 10px;
   background-color: rgb(41, 41, 41);
   padding: 10px 0 10px 0;
   border-radius: 15px;
-  margin: 10px;
+
   font-family: monospace;
   font-size: 18px;
   box-shadow: 1px 3px 5px rgb(255, 255, 255);
+  transition: 0.7s;
+}
+
+.side li.active {
+  width: 15vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  box-shadow: 5px 10px 15px white;
+  cursor: pointer; 
+}
+.side li:hover {
+  width: 15vw;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  box-shadow: 5px 10px 15px white;
   cursor: pointer;
 }
