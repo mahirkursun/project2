@@ -14,22 +14,18 @@ function App() {
   const [currentCategoryId, setCurrentCategoryId] = useState("");
   const [filteredProducts, setFilteredProducts] = useState(products);
 
-  const getProducts = async () => {
-    let url = "http://localhost:3005/products";
+  const getData= async () => {
+    let url = "http://localhost:3005/data/";
     const response = await fetch(url);
-    const products = await response.json();
-    setProducts(products);
+    const data = await response.json();
+    setProducts(data.products);
+    setCategories(data.categories);
+
   };
-  const getCategories = async () => {
-    let url = "http://localhost:3005/categories";
-    const response = await fetch(url);
-    const categories = await response.json();
-    setCategories(categories);
-  };
+  
 
   useEffect(() => {
-    getProducts();
-    getCategories();
+    getData();
   }, []);
 
   return (

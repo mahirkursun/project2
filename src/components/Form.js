@@ -7,7 +7,8 @@ const Form = ({ categories }) => {
       <form>
         <h3>Add Product</h3>
         <select placeholder="Kitap Kategorisi:" id="kategori">
-          <option>Select Category</option>
+
+          <option selected>Select Category</option>
           {categories.map((category) => (
             <option>{category.categoryName}</option>
           ))}
