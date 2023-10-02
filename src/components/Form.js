@@ -19,7 +19,7 @@ const Form = ({ categories }) => {
           id="quantityPerUnit"
         />
 
-        <input type="text" placeholder="Unit Price" id="unitPrice" />
+        <input type="text" placeholder="Unit Price($)" id="unitPrice" />
         <input type="text" id="unitsInStock" placeholder="Units In Stock" />
 
         <button>Ekle</button>
