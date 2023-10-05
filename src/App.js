@@ -13,6 +13,7 @@ function App() {
   const [currentCategory, setCurrentCategory] = useState("");
 
   const [currentCategoryId, setCurrentCategoryId] = useState("");
+  
   const [filteredProducts, setFilteredProducts] = useState(products);
 
 

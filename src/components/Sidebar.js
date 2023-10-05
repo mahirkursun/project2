@@ -9,8 +9,10 @@ const Sidebar = ({ categories, currentCategory, setCurrentCategory, setCurrentCa
         {categories.map((category) => (
           <ul key={category.id}>
             <li className={currentCategory === category.categoryName ? "active" : ""}
+
               onClick={() => {
                 setCurrentCategory(category.categoryName);
+                
                 setCurrentCategoryId(category.id);
               }}
             >
