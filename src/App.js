@@ -11,18 +11,21 @@ function App() {
   const [categories, setCategories] = useState([]);
 
   const [currentCategory, setCurrentCategory] = useState("");
+
   const [currentCategoryId, setCurrentCategoryId] = useState("");
   const [filteredProducts, setFilteredProducts] = useState(products);
 
-  const getData= async () => {
+
+
+
+  const getData = async () => {
     let url = "http://localhost:3005/data/";
     const response = await fetch(url);
     const data = await response.json();
     setProducts(data.products);
     setCategories(data.categories);
-
   };
-  
+
   useEffect(() => {
     getData();
   }, []);
@@ -44,7 +47,7 @@ function App() {
             setCurrentCategoryId={setCurrentCategoryId}
             categories={categories}
           />
-          <Form categories={categories}/>
+          <Form setProducts={setProducts} products={products} categories={categories} />
         </div>
 
         <Content
