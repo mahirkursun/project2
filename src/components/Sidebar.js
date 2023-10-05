@@ -1,19 +1,26 @@
 import React from "react";
 import "../style/side.scss";
 
-const Sidebar = ({ categories, currentCategory, setCurrentCategory, setCurrentCategoryId }) => {
+const Sidebar = ({
+  categories,
+  currentCategory,
+  setCurrentCategory,
+  setFilteredProducts,
+}) => {
   return (
     <aside>
       <div className="side">
-        <h2>Categories</h2>
+        <h2 onClick={()=>setFilteredProducts(null)}>Categories</h2>
         {categories.map((category) => (
           <ul key={category.id}>
-            <li className={currentCategory === category.categoryName ? "active" : ""}
-
+            <li
+              className={
+                currentCategory === category.categoryName ? "active" : ""
+              }
               onClick={() => {
                 setCurrentCategory(category.categoryName);
-                
-                setCurrentCategoryId(category.id);
+
+                setFilteredProducts(category.id);
               }}
             >
               {category.categoryName}

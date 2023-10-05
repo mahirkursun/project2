@@ -9,15 +9,9 @@ import { useEffect, useState } from "react";
 function App() {
   const [products, setProducts] = useState([]);
   const [categories, setCategories] = useState([]);
-
   const [currentCategory, setCurrentCategory] = useState("");
 
-  const [currentCategoryId, setCurrentCategoryId] = useState("");
-  
-  const [filteredProducts, setFilteredProducts] = useState(products);
-
-
-
+  const [filteredProducts, setFilteredProducts] = useState(null);
 
   const getData = async () => {
     let url = "http://localhost:3005/data/";
@@ -36,8 +30,8 @@ function App() {
       <Navbar
         currentCategory={currentCategory}
         setCurrentCategory={setCurrentCategory}
-        setCurrentCategoryId={setCurrentCategoryId}
         categories={categories}
+        setFilteredProducts={setFilteredProducts}
       />
 
       <div className="container">
@@ -45,18 +39,25 @@ function App() {
           <Sidebar
             currentCategory={currentCategory}
             setCurrentCategory={setCurrentCategory}
-            setCurrentCategoryId={setCurrentCategoryId}
+            setFilteredProducts={setFilteredProducts}
             categories={categories}
           />
-          <Form setProducts={setProducts} products={products} categories={categories} />
+          <Form
+            setProducts={setProducts}
+            products={products}
+            categories={categories}
+          />
         </div>
 
         <Content
           currentCategory={currentCategory}
-          currentCategoryId={currentCategoryId}
-          products={products}
-          filteredProducts={filteredProducts}
-          setFilteredProducts={setFilteredProducts}
+          products={
+            filteredProducts !== null
+              ? products.filter(
+                  (product) => product.categoryId === filteredProducts
+                )
+              : products
+          }
         />
       </div>
     </div>

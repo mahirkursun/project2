@@ -2,24 +2,11 @@
 import { useEffect } from "react";
 import "../style/content.scss";
 
-const Content = ({ products, currentCategory, currentCategoryId,filteredProducts ,setFilteredProducts}) => {
+const Content = ({ products, currentCategory}) => {
 
 
-  const filterProducts = () => {
-    if (currentCategory === "") {
-      setFilteredProducts("");
-    } else {
-      const filtered = products.filter(
-        (product) => product.categoryId === currentCategoryId
-      );
-      setFilteredProducts(filtered);
-    }
-  };
+ 
 
-
-  useEffect(() => {
-    filterProducts();
-  }, [currentCategory, currentCategoryId]);
 
 
   return (
@@ -36,7 +23,7 @@ const Content = ({ products, currentCategory, currentCategoryId,filteredProducts
           </tr>
         </thead>
         <tbody>
-          {(filteredProducts === "" ? products : filteredProducts).map(
+          {products.map(
             (product) => (
               <tr key={product.id}>
                 <td>{product.id}</td>

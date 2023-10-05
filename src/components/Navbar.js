@@ -2,19 +2,13 @@ import React from "react";
 import "../style/nav.scss";
 import logo from "../images/logo.png";
 
-const Navbar = ({
-  categories,
-  currentCategory,
-  setCurrentCategory,
-  setCurrentCategoryId,
-}) => {
+const Navbar = ({ categories, currentCategory, setCurrentCategory ,setFilteredProducts}) => {
   return (
     <nav>
       <div className="logo">
         <img
           onClick={() => {
-            setCurrentCategory("");
-            setCurrentCategoryId("");
+            setFilteredProducts(null)
           }}
           src={logo}
           alt="logo"
@@ -29,7 +23,7 @@ const Navbar = ({
               }
               onClick={() => {
                 setCurrentCategory(category.categoryName);
-                setCurrentCategoryId(category.id);
+                setFilteredProducts(category.id);
               }}
             >
               {category.categoryName}
