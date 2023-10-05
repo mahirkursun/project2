@@ -1,14 +1,6 @@
-
-import { useEffect } from "react";
 import "../style/content.scss";
 
-const Content = ({ products, currentCategory}) => {
-
-
- 
-
-
-
+const Content = ({ products, currentCategory }) => {
   return (
     <div className="content">
       <h3>Product List - {currentCategory}</h3>
@@ -23,17 +15,15 @@ const Content = ({ products, currentCategory}) => {
           </tr>
         </thead>
         <tbody>
-          {products.map(
-            (product) => (
-              <tr key={product.id}>
-                <td>{product.id}</td>
-                <td>{product.productName}</td>
-                <td>{product.quantityPerUnit}</td>
-                <td>{product.unitPrice}</td>
-                <td>{product.unitsInStock}</td>
-              </tr>
-            )
-          )}
+          {products.map((product) => (
+            <tr key={product.id}>
+              <td>{product.id}</td>
+              <td>{product.productName}</td>
+              <td>{product.quantityPerUnit}</td>
+              <td>{product.unitPrice}</td>
+              <td>{product.unitsInStock}</td>
+            </tr>
+          ))}
         </tbody>
       </table>
     </div>
