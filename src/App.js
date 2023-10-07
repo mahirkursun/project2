@@ -45,7 +45,7 @@ function App() {
           <Form
             setProducts={setProducts}
             products={products}
-            categories={categories}
+            categories={categories} 
           />
         </div>
 
