@@ -18,7 +18,7 @@ function App() {
     const response = await fetch(url);
     const data = await response.json();
     setProducts(data.products);
-    setCategories(data.categories);
+    setCategories(data.categories); 
   };
 
   useEffect(() => {
