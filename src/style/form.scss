@@ -1,8 +1,4 @@
-.form-container{
-  position: sticky;
-  top: 640px; /* İstenilen yüksekliği ayarlayın */
-  z-index: 1; 
-}
+
 form {
     margin: auto;
     border-radius: 25px;
@@ -40,8 +36,6 @@ form {
   }
   
   button{
-   
-
     color: white;
     
     display: flex;

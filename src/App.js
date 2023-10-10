@@ -1,3 +1,4 @@
+import axios from "axios";
 import Content from "./components/Content";
 import Form from "./components/Form";
 import Navbar from "./components/Navbar";
@@ -13,16 +14,44 @@ function App() {
 
   const [filteredProducts, setFilteredProducts] = useState(null);
 
-  const getData = async () => {
-    let url = "http://localhost:3005/data/";
-    const response = await fetch(url);
-    const data = await response.json();
-    setProducts(data.products);
-    setCategories(data.categories); 
+  const getProducts = async () => {
+    let url = "http://localhost:3005/products";
+    const response = await axios.get(url);
+    setProducts(response.data);
+  };
+  const getCategories = async () => {
+    let url = "http://localhost:3005/categories";
+    const response = await axios.get(url);
+    setCategories(response.data); 
   };
 
+  const addEditProduct = async (newProduct) => {
+
+    let url = "http://localhost:3005/products";
+
+    
+    const response = await axios.post(url, newProduct);
+    if (response.status === 201) {
+      await setProducts((prev) => [...prev, newProduct]);
+    }
+   
+  };
+
+  const deleteProduct = async (id) => {
+    let url = `http://localhost:3005/products/${id}`;
+    const response = await axios.patch(url, { isDeleted: true });
+    if (response.status === 200) {
+      setProducts((prev) =>
+        prev.filter((statedenGelen) => statedenGelen.id !== id)
+      );
+    }
+  };
+
+
+
   useEffect(() => {
-    getData();
+    getProducts();
+    getCategories();
   }, []);
 
   return (
@@ -46,6 +75,7 @@ function App() {
             setProducts={setProducts}
             products={products}
             categories={categories} 
+            addEditProduct={addEditProduct}
           />
         </div>
 
@@ -58,6 +88,7 @@ function App() {
                 )
               : products
           }
+          deleteProduct={deleteProduct}
         />
       </div>
     </div>

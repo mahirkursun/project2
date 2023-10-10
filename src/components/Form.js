@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../style/form.scss";
 
-const Form = ({ setProducts, categories, products, addProduct }) => {
+
+const Form = ({  categories, products, addEditProduct}) => {
   const [categoryId, setCatergoryId] = useState("");
   const [productName, setProductName] = useState("");
   const [quantityPerUnit, setQuantityPerUnit] = useState("");
@@ -10,8 +11,8 @@ const Form = ({ setProducts, categories, products, addProduct }) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
     
+
     const newProduct = {
       id: products.length + 1,
       categoryId: Number(categoryId),
@@ -22,8 +23,7 @@ const Form = ({ setProducts, categories, products, addProduct }) => {
       isDeleted: false,
     };
 
-    e.preventDefault();
-    setProducts([...products, newProduct]);
+    addEditProduct(newProduct);
 
     setCatergoryId("");
     setProductName("");
@@ -32,22 +32,20 @@ const Form = ({ setProducts, categories, products, addProduct }) => {
     setUnitsInStock("");
   };
 
-
-
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
         <h3>Add Product</h3>
-        <select value={categoryId}
-              onChange={(e) => setCatergoryId(e.target.value)}
-              required placeholder="Kitap Kategorisi:" id="kategori" >
+        <select
+          value={categoryId}
+          onChange={(e) => setCatergoryId(e.target.value)}
+          required
+          placeholder="Kitap Kategorisi:"
+          id="kategori"
+        >
           <option selected>Select Category</option>
           {categories.map((category) => (
-            <option
-              value={category.id}
-            >
-              {category.categoryName}
-            </option>
+            <option value={category.id}>{category.categoryName}</option>
           ))}
         </select>
         <input
