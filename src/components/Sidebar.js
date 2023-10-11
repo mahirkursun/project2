@@ -3,8 +3,8 @@ import "../style/side.scss";
 
 const Sidebar = ({
   categories,
-  currentCategory,
-  setCurrentCategory,
+  selectedCategory,
+  setSelectedCategory,
   setFilteredProducts,
 }) => {
   return (
@@ -15,10 +15,10 @@ const Sidebar = ({
           <ul key={category.id}>
             <li
               className={
-                currentCategory === category.categoryName ? "active" : ""
+                selectedCategory === category.categoryName ? "active" : ""
               }
               onClick={() => {
-                setCurrentCategory(category.categoryName);
+                setSelectedCategory(category.categoryName);
 
                 setFilteredProducts(category.id);
               }}

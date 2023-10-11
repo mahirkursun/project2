@@ -7,7 +7,7 @@
       "quantityPerUnit": "48 - 6 oz jars",
       "unitPrice": "24",
       "unitsInStock": 53,
-      "isDeleted": true
+      "isDeleted": false
     },
     {
       "id": 2,
@@ -16,7 +16,7 @@
       "quantityPerUnit": "24 - 12 oz bottles",
       "unitPrice": "21",
       "unitsInStock": 17,
-      "isDeleted": true
+      "isDeleted": false
     },
     {
       "id": 3,
@@ -25,7 +25,7 @@
       "quantityPerUnit": "24 - 12 oz bottles",
       "unitPrice": "21",
       "unitsInStock": 17,
-      "isDeleted": true
+      "isDeleted": false
     },
     {
       "id": 4,
@@ -34,7 +34,7 @@
       "quantityPerUnit": "48 - 6 oz jars",
       "unitPrice": "222",
       "unitsInStock": 53,
-      "isDeleted": true
+      "isDeleted": false
     },
     {
       "id": 5,
@@ -43,7 +43,7 @@
       "quantityPerUnit": "36 boxes",
       "unitPrice": "21",
       "unitsInStock": 0,
-      "isDeleted": true
+      "isDeleted": false
     },
     {
       "id": 6,
@@ -52,7 +52,7 @@
       "quantityPerUnit": "12 - 8 oz jars",
       "unitPrice": 25,
       "unitsInStock": 120,
-      "isDeleted": true
+      "isDeleted": false
     },
     {
       "id": 7,
@@ -60,7 +60,8 @@
       "productName": "Uncle Bob's Organic Dried Pears",
       "quantityPerUnit": "12 - 1 lb pkgs.",
       "unitPrice": 30,
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "isDeleted": false
     },
     {
       "id": 8,
@@ -68,7 +69,8 @@
       "productName": "Northwoods Cranberry Sauce",
       "quantityPerUnit": "12 - 12 oz jars",
       "unitPrice": 40,
-      "unitsInStock": 100
+      "unitsInStock": 100,
+      "isDeleted": false
     },
     {
       "id": 9,
@@ -76,7 +78,8 @@
       "productName": "Mishi Kobe Niku",
       "quantityPerUnit": "18 - 500 g pkgs.",
       "unitPrice": 97,
-      "unitsInStock": 29
+      "unitsInStock": 29,
+      "isDeleted": false
     },
     {
       "id": 10,
@@ -84,7 +87,8 @@
       "productName": "Ikura",
       "quantityPerUnit": "12 - 200 ml jars",
       "unitPrice": 31,
-      "unitsInStock": 31
+      "unitsInStock": 31,
+      "isDeleted": false
     },
     {
       "id": 11,
@@ -92,7 +96,8 @@
       "productName": "Queso Cabrales",
       "quantityPerUnit": "1 kg pkg.",
       "unitPrice": 21,
-      "unitsInStock": 22
+      "unitsInStock": 22,
+      "isDeleted": false
     },
     {
       "id": 12,
@@ -100,7 +105,8 @@
       "productName": "Queso Manchego La Pastora",
       "quantityPerUnit": "10 - 500 g pkgs.",
       "unitPrice": 38,
-      "unitsInStock": 86
+      "unitsInStock": 86,
+      "isDeleted": false
     },
     {
       "id": 13,
@@ -108,7 +114,8 @@
       "productName": "Konbu",
       "quantityPerUnit": "2 kg box",
       "unitPrice": 6,
-      "unitsInStock": 24
+      "unitsInStock": 24,
+      "isDeleted": false
     },
     {
       "id": 14,
@@ -116,7 +123,8 @@
       "productName": "Tofu",
       "quantityPerUnit": "40 - 100 g pkgs.",
       "unitPrice": 23.25,
-      "unitsInStock": 35
+      "unitsInStock": 35,
+      "isDeleted": false
     },
     {
       "id": 15,
@@ -124,7 +132,8 @@
       "productName": "Genen Shouyu",
       "quantityPerUnit": "24 - 250 ml bottles",
       "unitPrice": 15.5,
-      "unitsInStock": 39
+      "unitsInStock": 39,
+      "isDeleted": false
     },
     {
       "id": 16,
@@ -132,7 +141,8 @@
       "productName": "Pavlova",
       "quantityPerUnit": "32 - 500 g boxes",
       "unitPrice": 17.45,
-      "unitsInStock": 29
+      "unitsInStock": 29,
+      "isDeleted": false
     },
     {
       "id": 17,
@@ -140,7 +150,8 @@
       "productName": "Guiza",
       "quantityPerUnit": "20 - 1 kg tins",
       "unitPrice": 39,
-      "unitsInStock": 0
+      "unitsInStock": 0,
+      "isDeleted": false
     },
     {
       "id": 18,
@@ -148,7 +159,8 @@
       "productName": "Carnarvon Tigers",
       "quantityPerUnit": "16 kg pkg.",
       "unitPrice": 62.5,
-      "unitsInStock": 42
+      "unitsInStock": 42,
+      "isDeleted": false
     },
     {
       "id": 19,
@@ -157,7 +169,7 @@
       "quantityPerUnit": "10 boxes x 12 pieces",
       "unitPrice": 9.2,
       "unitsInStock": 25,
-      "isDeleted": true
+      "isDeleted": false
     },
     {
       "id": 20,
@@ -166,7 +178,7 @@
       "quantityPerUnit": "30 gift boxes",
       "unitPrice": 81,
       "unitsInStock": 40,
-      "isDeleted": true
+      "isDeleted": false
     },
     {
       "id": 21,
@@ -174,7 +186,8 @@
       "productName": "Sir Rodney's Scones",
       "quantityPerUnit": "24 pkgs. x 4 pieces",
       "unitPrice": 10,
-      "unitsInStock": 3
+      "unitsInStock": 3,
+      "isDeleted": false
     },
     {
       "id": 22,
@@ -182,7 +195,8 @@
       "productName": "Gustaf's Knäckebröd",
       "quantityPerUnit": "24 - 500 g pkgs.",
       "unitPrice": 21,
-      "unitsInStock": 104
+      "unitsInStock": 104,
+      "isDeleted": false
     },
     {
       "id": 23,
@@ -191,7 +205,7 @@
       "quantityPerUnit": "12 - 250 g pkgs.",
       "unitPrice": 9,
       "unitsInStock": 61,
-      "isDeleted": true
+      "isDeleted": false
     },
     {
       "id": 24,
@@ -199,7 +213,8 @@
       "productName": "Guaraná Fantástica",
       "quantityPerUnit": "12 - 355 ml cans",
       "unitPrice": 4.5,
-      "unitsInStock": 20
+      "unitsInStock": 20,
+      "isDeleted": false
     },
     {
       "id": 25,
@@ -207,7 +222,8 @@
       "productName": "NuNuCa Nuß-Nougat-Creme",
       "quantityPerUnit": "20 - 450 g glasses",
       "unitPrice": 14,
-      "unitsInStock": 76
+      "unitsInStock": 76,
+      "isDeleted": false
     },
     {
       "id": 26,
@@ -215,7 +231,8 @@
       "productName": "Gumbär Gummibärchen",
       "quantityPerUnit": "100 - 250 g bags",
       "unitPrice": 31.23,
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "isDeleted": false
     },
     {
       "id": 27,
@@ -223,7 +240,8 @@
       "productName": "Schoggi Schokolade",
       "quantityPerUnit": "100 - 100 g pieces",
       "unitPrice": 43.9,
-      "unitsInStock": 49
+      "unitsInStock": 49,
+      "isDeleted": false
     },
     {
       "id": 28,
@@ -231,7 +249,8 @@
       "productName": "Rössle Sauerkraut",
       "quantityPerUnit": "25 - 825 g cans",
       "unitPrice": 45.6,
-      "unitsInStock": 26
+      "unitsInStock": 26,
+      "isDeleted": false
     },
     {
       "id": 29,
@@ -239,7 +258,8 @@
       "productName": "Thüringer Rostbratwurst",
       "quantityPerUnit": "50 bags x 30 sausgs.",
       "unitPrice": 123.79,
-      "unitsInStock": 0
+      "unitsInStock": 0,
+      "isDeleted": false
     },
     {
       "id": 30,
@@ -247,7 +267,8 @@
       "productName": "Nord-Ost Matjeshering",
       "quantityPerUnit": "10 - 200 g glasses",
       "unitPrice": 25.89,
-      "unitsInStock": 10
+      "unitsInStock": 10,
+      "isDeleted": false
     },
     {
       "id": 31,
@@ -255,7 +276,8 @@
       "productName": "Gorgonzola Telino",
       "quantityPerUnit": "12 - 100 g pkgs",
       "unitPrice": 12.5,
-      "unitsInStock": 0
+      "unitsInStock": 0,
+      "isDeleted": false
     },
     {
       "id": 32,
@@ -263,7 +285,8 @@
       "productName": "Mascarpone Fabioli",
       "quantityPerUnit": "24 - 200 g pkgs.",
       "unitPrice": 32,
-      "unitsInStock": 9
+      "unitsInStock": 9,
+      "isDeleted": false
     },
     {
       "id": 33,
@@ -271,7 +294,8 @@
       "productName": "Geitost",
       "quantityPerUnit": "500 g",
       "unitPrice": 2.5,
-      "unitsInStock": 112
+      "unitsInStock": 112,
+      "isDeleted": false
     },
     {
       "id": 34,
@@ -279,7 +303,8 @@
       "productName": "Sasquatch Ale",
       "quantityPerUnit": "24 - 12 oz bottles",
       "unitPrice": 14,
-      "unitsInStock": 111
+      "unitsInStock": 111,
+      "isDeleted": false
     },
     {
       "id": 35,
@@ -287,7 +312,8 @@
       "productName": "Steeleye Stout",
       "quantityPerUnit": "24 - 12 oz bottles",
       "unitPrice": 18,
-      "unitsInStock": 20
+      "unitsInStock": 20,
+      "isDeleted": false
     },
     {
       "id": 36,
@@ -295,7 +321,8 @@
       "productName": "Inlagd Sill",
       "quantityPerUnit": "24 - 250 g  jars",
       "unitPrice": 19,
-      "unitsInStock": 112
+      "unitsInStock": 112,
+      "isDeleted": false
     },
     {
       "id": 37,
@@ -303,7 +330,8 @@
       "productName": "Gravad lax",
       "quantityPerUnit": "12 - 500 g pkgs.",
       "unitPrice": 26,
-      "unitsInStock": 11
+      "unitsInStock": 11,
+      "isDeleted": false
     },
     {
       "id": 38,
@@ -311,7 +339,8 @@
       "productName": "Côte de Blaye",
       "quantityPerUnit": "12 - 75 cl bottles",
       "unitPrice": 263.5,
-      "unitsInStock": 17
+      "unitsInStock": 17,
+      "isDeleted": false
     },
     {
       "id": 39,
@@ -319,7 +348,8 @@
       "productName": "Chartreuse verte",
       "quantityPerUnit": "750 cc per bottle",
       "unitPrice": 18,
-      "unitsInStock": 69
+      "unitsInStock": 69,
+      "isDeleted": false
     },
     {
       "id": 40,
@@ -327,7 +357,8 @@
       "productName": "Boston Crab Meat",
       "quantityPerUnit": "24 - 4 oz tins",
       "unitPrice": 18.4,
-      "unitsInStock": 123
+      "unitsInStock": 123,
+      "isDeleted": false
     },
     {
       "id": 41,
@@ -335,7 +366,8 @@
       "productName": "Jack's New England Clam Chowder",
       "quantityPerUnit": "12 - 12 oz cans",
       "unitPrice": 9.65,
-      "unitsInStock": 85
+      "unitsInStock": 85,
+      "isDeleted": false
     },
     {
       "id": 42,
@@ -343,7 +375,8 @@
       "productName": "Singaporean Hokkien Fried Mee",
       "quantityPerUnit": "32 - 1 kg pkgs.",
       "unitPrice": 14,
-      "unitsInStock": 26
+      "unitsInStock": 26,
+      "isDeleted": false
     },
     {
       "id": 43,
@@ -351,7 +384,8 @@
       "productName": "Ipoh Coffee",
       "quantityPerUnit": "16 - 500 g tins",
       "unitPrice": 46,
-      "unitsInStock": 17
+      "unitsInStock": 17,
+      "isDeleted": false
     },
     {
       "id": 44,
@@ -359,7 +393,8 @@
       "productName": "Gula Malacca",
       "quantityPerUnit": "20 - 2 kg bags",
       "unitPrice": 19.45,
-      "unitsInStock": 27
+      "unitsInStock": 27,
+      "isDeleted": false
     },
     {
       "id": 45,
@@ -367,7 +402,8 @@
       "productName": "Rogede sild",
       "quantityPerUnit": "1k pkg.",
       "unitPrice": 9.5,
-      "unitsInStock": 5
+      "unitsInStock": 5,
+      "isDeleted": false
     },
     {
       "id": 46,
@@ -375,7 +411,8 @@
       "productName": "Spegesild",
       "quantityPerUnit": "4 - 450 g glasses",
       "unitPrice": 12,
-      "unitsInStock": 95
+      "unitsInStock": 95,
+      "isDeleted": false
     },
     {
       "id": 47,
@@ -383,7 +420,8 @@
       "productName": "Zaanse koeken",
       "quantityPerUnit": "10 - 4 oz boxes",
       "unitPrice": 9.5,
-      "unitsInStock": 36
+      "unitsInStock": 36,
+      "isDeleted": false
     },
     {
       "id": 48,
@@ -391,7 +429,8 @@
       "productName": "Chocolade",
       "quantityPerUnit": "10 pkgs.",
       "unitPrice": 12.75,
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "isDeleted": false
     },
     {
       "id": 49,
@@ -399,7 +438,8 @@
       "productName": "Maxilaku",
       "quantityPerUnit": "24 - 50 g pkgs.",
       "unitPrice": 20,
-      "unitsInStock": 10
+      "unitsInStock": 10,
+      "isDeleted": false
     },
     {
       "id": 50,
@@ -407,7 +447,8 @@
       "productName": "Valkoinen suklaa",
       "quantityPerUnit": "12 - 100 g bars",
       "unitPrice": 16.25,
-      "unitsInStock": 65
+      "unitsInStock": 65,
+      "isDeleted": false
     },
     {
       "id": 51,
@@ -415,7 +456,8 @@
       "productName": "Manjimup Dried Apples",
       "quantityPerUnit": "50 - 300 g pkgs.",
       "unitPrice": 53,
-      "unitsInStock": 20
+      "unitsInStock": 20,
+      "isDeleted": false
     },
     {
       "id": 52,
@@ -423,7 +465,8 @@
       "productName": "Filo Mix",
       "quantityPerUnit": "16 - 2 kg boxes",
       "unitPrice": 7,
-      "unitsInStock": 38
+      "unitsInStock": 38,
+      "isDeleted": false
     },
     {
       "id": 53,
@@ -431,7 +474,8 @@
       "productName": "Perth Pasties",
       "quantityPerUnit": "48 pieces",
       "unitPrice": 32.8,
-      "unitsInStock": 0
+      "unitsInStock": 0,
+      "isDeleted": false
     },
     {
       "id": 54,
@@ -439,7 +483,8 @@
       "productName": "Tourtière",
       "quantityPerUnit": "16 pies",
       "unitPrice": 7.45,
-      "unitsInStock": 21
+      "unitsInStock": 21,
+      "isDeleted": false
     },
     {
       "id": 55,
@@ -447,7 +492,8 @@
       "productName": "Pâté chinois",
       "quantityPerUnit": "24 boxes x 2 pies",
       "unitPrice": 24,
-      "unitsInStock": 115
+      "unitsInStock": 115,
+      "isDeleted": false
     },
     {
       "id": 56,
@@ -455,7 +501,8 @@
       "productName": "Gnocchi di nonna Alice",
       "quantityPerUnit": "24 - 250 g pkgs.",
       "unitPrice": 38,
-      "unitsInStock": 21
+      "unitsInStock": 21,
+      "isDeleted": false
     },
     {
       "id": 57,
@@ -463,7 +510,8 @@
       "productName": "Ravioli Angelo",
       "quantityPerUnit": "24 - 250 g pkgs.",
       "unitPrice": 19.5,
-      "unitsInStock": 36
+      "unitsInStock": 36,
+      "isDeleted": false
     },
     {
       "id": 58,
@@ -471,7 +519,8 @@
       "productName": "Escargots de Bourgogne",
       "quantityPerUnit": "24 pieces",
       "unitPrice": 13.25,
-      "unitsInStock": 62
+      "unitsInStock": 62,
+      "isDeleted": false
     },
     {
       "id": 59,
@@ -479,7 +528,8 @@
       "productName": "Raclette Courdavault",
       "quantityPerUnit": "5 kg pkg.",
       "unitPrice": 55,
-      "unitsInStock": 79
+      "unitsInStock": 79,
+      "isDeleted": false
     },
     {
       "id": 60,
@@ -487,7 +537,8 @@
       "productName": "Camembert Pierrot",
       "quantityPerUnit": "15 - 300 g rounds",
       "unitPrice": 34,
-      "unitsInStock": 19
+      "unitsInStock": 19,
+      "isDeleted": false
     },
     {
       "id": 61,
@@ -495,7 +546,8 @@
       "productName": "Sirop d'érable",
       "quantityPerUnit": "24 - 500 ml bottles",
       "unitPrice": 28.5,
-      "unitsInStock": 113
+      "unitsInStock": 113,
+      "isDeleted": false
     },
     {
       "id": 62,
@@ -503,7 +555,8 @@
       "productName": "Tarte au sucre",
       "quantityPerUnit": "48 pies",
       "unitPrice": 49.3,
-      "unitsInStock": 17
+      "unitsInStock": 17,
+      "isDeleted": false
     },
     {
       "id": 63,
@@ -511,7 +564,8 @@
       "productName": "Vegie-spread",
       "quantityPerUnit": "15 - 625 g jars",
       "unitPrice": 43.9,
-      "unitsInStock": 24
+      "unitsInStock": 24,
+      "isDeleted": false
     },
     {
       "id": 64,
@@ -519,7 +573,8 @@
       "productName": "Wimmers gute Semmelknödel",
       "quantityPerUnit": "20 bags x 4 pieces",
       "unitPrice": 33.25,
-      "unitsInStock": 22
+      "unitsInStock": 22,
+      "isDeleted": false
     },
     {
       "id": 65,
@@ -527,7 +582,8 @@
       "productName": "Louisiana Fiery Hot Pepper Sauce",
       "quantityPerUnit": "32 - 8 oz bottles",
       "unitPrice": 21.05,
-      "unitsInStock": 76
+      "unitsInStock": 76,
+      "isDeleted": false
     },
     {
       "id": 66,
@@ -535,7 +591,8 @@
       "productName": "Louisiana Hot Spiced Okra",
       "quantityPerUnit": "24 - 8 oz jars",
       "unitPrice": 17,
-      "unitsInStock": 4
+      "unitsInStock": 4,
+      "isDeleted": false
     },
     {
       "id": 67,
@@ -543,7 +600,8 @@
       "productName": "Laughing Lumberjack Lager",
       "quantityPerUnit": "24 - 12 oz bottles",
       "unitPrice": 14,
-      "unitsInStock": 52
+      "unitsInStock": 52,
+      "isDeleted": false
     },
     {
       "id": 68,
@@ -551,7 +609,8 @@
       "productName": "Scottish Longbreads",
       "quantityPerUnit": "10 boxes x 8 pieces",
       "unitPrice": 12.5,
-      "unitsInStock": 6
+      "unitsInStock": 6,
+      "isDeleted": false
     },
     {
       "id": 69,
@@ -559,15 +618,17 @@
       "productName": "Gudbrandsdalsost",
       "quantityPerUnit": "10 kg pkg.",
       "unitPrice": 36,
-      "unitsInStock": 26
+      "unitsInStock": 26,
+      "isDeleted": false
     },
     {
       "id": 70,
       "categoryId": 1,
-      "productName": "Outback Lager",
+      "productName": "Outback",
       "quantityPerUnit": "24 - 355 ml bottles",
       "unitPrice": 15,
-      "unitsInStock": 15
+      "unitsInStock": 15,
+      "isDeleted": false
     },
     {
       "id": 71,
@@ -575,7 +636,8 @@
       "productName": "Flotemysost",
       "quantityPerUnit": "10 - 500 g pkgs.",
       "unitPrice": 21.5,
-      "unitsInStock": 26
+      "unitsInStock": 26,
+      "isDeleted": false
     },
     {
       "id": 72,
@@ -583,7 +645,8 @@
       "productName": "Mozzarella di Giovanni",
       "quantityPerUnit": "24 - 200 g pkgs.",
       "unitPrice": 34.8,
-      "unitsInStock": 14
+      "unitsInStock": 14,
+      "isDeleted": false
     },
     {
       "id": 73,
@@ -591,7 +654,8 @@
       "productName": "Röd Kaviar",
       "quantityPerUnit": "24 - 150 g jars",
       "unitPrice": 15,
-      "unitsInStock": 101
+      "unitsInStock": 101,
+      "isDeleted": false
     },
     {
       "id": 74,
@@ -599,7 +663,8 @@
       "productName": "Longlife Tofu",
       "quantityPerUnit": "5 kg pkg.",
       "unitPrice": 10,
-      "unitsInStock": 4
+      "unitsInStock": 4,
+      "isDeleted": false
     },
     {
       "id": 75,
@@ -607,23 +672,26 @@
       "productName": "Rhönbräu Klosterbier",
       "quantityPerUnit": "24 - 0.5 l bottles",
       "unitPrice": 7.75,
-      "unitsInStock": 125
+      "unitsInStock": 125,
+      "isDeleted": true
     },
     {
-      "id": 76,
       "categoryId": 1,
       "productName": "Lakkaliköör",
       "quantityPerUnit": "500 m",
       "unitPrice": 18,
-      "unitsInStock": 57
+      "unitsInStock": 57,
+      "id": 76,
+      "isDeleted": true
     },
     {
       "id": 77,
       "categoryId": 2,
-      "productName": "Original Frankfurter grüne Soße",
+      "productName": "Originalgrüne Soße",
       "quantityPerUnit": "12 boxes",
       "unitPrice": 13,
-      "unitsInStock": 32
+      "unitsInStock": 32,
+      "isDeleted": false
     },
     {
       "id": 78,
@@ -635,21 +703,12 @@
       "isDeleted": true
     },
     {
-      "id": 79,
-      "categoryId": 1,
-      "productName": "ds",
-      "quantityPerUnit": "asd",
-      "unitPrice": "25",
-      "unitsInStock": "45",
-      "isDeleted": true
-    },
-    {
       "id": 80,
-      "categoryId": 3,
-      "productName": "sdf",
-      "quantityPerUnit": "deneme",
-      "unitPrice": "34",
-      "unitsInStock": "34",
+      "categoryId": 1,
+      "productName": "Kahve",
+      "quantityPerUnit": "5 kg pkg.",
+      "unitPrice": "10",
+      "unitsInStock": "15",
       "isDeleted": true
     }
   ],

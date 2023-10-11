@@ -2,7 +2,7 @@ import React from "react";
 import "../style/nav.scss";
 import logo from "../images/logo.png";
 
-const Navbar = ({ categories, currentCategory, setCurrentCategory ,setFilteredProducts}) => {
+const Navbar = ({ categories, selectedCategory, setSelectedCategory ,setFilteredProducts}) => {
   return (
     <nav>
       <div className="logo">
@@ -19,10 +19,10 @@ const Navbar = ({ categories, currentCategory, setCurrentCategory ,setFilteredPr
           <ul key={category.id}>
             <li
               className={
-                currentCategory === category.categoryName ? "active" : ""
+                selectedCategory === category.categoryName ? "active" : ""
               }
               onClick={() => {
-                setCurrentCategory(category.categoryName);
+                setSelectedCategory(category.categoryName);
                 setFilteredProducts(category.id);
               }}
             >

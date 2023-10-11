@@ -1,9 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../style/form.scss";
 
-
-const Form = ({  categories, products, addEditProduct}) => {
-  const [categoryId, setCatergoryId] = useState("");
+const Form = ({ categories, products, addEditProduct, selectedProduct }) => {
+  const [categoryId, setCatergoryId] = useState(null);
   const [productName, setProductName] = useState("");
   const [quantityPerUnit, setQuantityPerUnit] = useState("");
   const [unitPrice, setUnitPrice] = useState("");
@@ -11,7 +10,6 @@ const Form = ({  categories, products, addEditProduct}) => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    
 
     const newProduct = {
       id: products.length + 1,
@@ -25,17 +23,27 @@ const Form = ({  categories, products, addEditProduct}) => {
 
     addEditProduct(newProduct);
 
-    setCatergoryId("");
+    setCatergoryId(null);
     setProductName("");
     setQuantityPerUnit("");
     setUnitPrice("");
     setUnitsInStock("");
   };
 
+  useEffect(() => {
+    if (selectedProduct) {
+      setCatergoryId(selectedProduct.categoryId);
+      setProductName(selectedProduct.productName);
+      setQuantityPerUnit(selectedProduct.quantityPerUnit);
+      setUnitPrice(selectedProduct.unitPrice);
+      setUnitsInStock(selectedProduct.unitsInStock);
+    }
+  }, [selectedProduct]);
+
   return (
     <div className="form-container">
       <form onSubmit={handleSubmit}>
-        <h3>Add Product</h3>
+        <h3>{selectedProduct ? "Edit Product" : "Add Product"}</h3>
         <select
           value={categoryId}
           onChange={(e) => setCatergoryId(e.target.value)}
@@ -82,7 +90,7 @@ const Form = ({  categories, products, addEditProduct}) => {
           required
         />
 
-        <button type="submit">Ekle</button>
+        <input className="editAdd" type="submit" value={selectedProduct ? "Edit" : "Add"}/>
       </form>
     </div>
   );

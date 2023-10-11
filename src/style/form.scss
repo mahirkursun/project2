@@ -75,3 +75,30 @@ form {
   .form-container h3{
     text-align: center;
   }
+
+  .editAdd{
+    color: white;
+
+  display: flex;
+
+  justify-content: center;
+  width: 13vw;
+  margin-top: 10px;
+  background-color: rgb(41, 41, 41);
+  padding: 10px 0 10px 0;
+  border-radius: 15px;
+
+  font-family: monospace;
+  font-size: 18px;
+  box-shadow: 1px 3px 5px rgb(255, 255, 255);
+  transition: 0.7s;
+  &:hover {
+    width: 15vw;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    box-shadow: 5px 10px 15px white;
+    cursor: pointer;
+  }
+  }

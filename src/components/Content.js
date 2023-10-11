@@ -1,8 +1,11 @@
 import "../style/content.scss";
+import { ToastContainer} from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-const Content = ({ products, currentCategory, deleteProduct }) => {
+const Content = ({ products, currentCategory, deleteProduct, getProduct }) => {
   return (
     <div className="content">
+      <ToastContainer />
       <h3>Product List - {currentCategory}</h3>
       <table>
         <thead>
@@ -33,7 +36,12 @@ const Content = ({ products, currentCategory, deleteProduct }) => {
                       >
                         sil
                       </button>
-                      <button className="tdDuzenle">düzenle</button>
+                      <button
+                        onClick={() => getProduct(product.id)}
+                        className="tdDuzenle"
+                      >
+                        düzenle
+                      </button>
                     </td>
                   </tr>
                 )
