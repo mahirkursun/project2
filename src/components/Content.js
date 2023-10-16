@@ -15,7 +15,7 @@ const Content = ({ products, currentCategory, deleteProduct, getProduct }) => {
             <th>Quantity Per Unit</th>
             <th>Unit Price($)</th>
             <th>Units In Stock</th>
-            <th>Operation</th>
+            <th>Operation</th> 
           </tr>
         </thead>
         <tbody>
